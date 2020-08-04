@@ -1,0 +1,27 @@
+一个解决方案（sln） -> 多个项目（csproj）
+项目之间可以进行依赖、引用
+一个项目 -> 编译 -> dll或exe（assembly）
+assembly -> type
+
+type:
+class(enum、delegate)
+struct
+interface
+
+class（成分）：
+字段（Field）
+属性（Property）
+构造函数（Constructor）
+析构函数
+方法（函数）（Method）
+索引器
+事件（Event）
+
+Member：Field、Property
+
+访问修饰符：
+private：类型内部访问
+protected：当前类型和派送类可访问
+internal protected：程序集内，当前类型和派送类可访问
+internal：程序集内访问
+public：所有地方可以访问
